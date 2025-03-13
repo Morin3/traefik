@@ -37,7 +37,7 @@
     "vuex-map-fields": "^1.4.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.9",
+    "@babel/core": "^7.26.10",
     "@babel/eslint-parser": "^7.23.10",
     "@quasar/app-vite": "^1.4.3",
     "@quasar/babel-preset-app": "^2.0.2",
