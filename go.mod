@@ -1,6 +1,6 @@
 module github.com/traefik/traefik/v3
 
-go 1.22.4
+go 1.25.0
 
 require (
 	github.com/BurntSushi/toml v1.4.0
@@ -83,12 +83,12 @@ require (
 	go.opentelemetry.io/otel/sdk/metric v1.28.0
 	go.opentelemetry.io/otel/trace v1.28.0
 	golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842 // No tag on the repo.
-	golang.org/x/mod v0.18.0
-	golang.org/x/net v0.26.0
-	golang.org/x/sys v0.21.0
-	golang.org/x/text v0.16.0
-	golang.org/x/time v0.5.0
-	golang.org/x/tools v0.22.0
+	golang.org/x/mod v0.35.0
+	golang.org/x/net v0.55.0
+	golang.org/x/sys v0.45.0
+	golang.org/x/text v0.37.0
+	golang.org/x/time v0.12.0
+	golang.org/x/tools v0.44.0
 	google.golang.org/grpc v1.64.1
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 	gopkg.in/yaml.v3 v3.0.1
@@ -129,7 +129,7 @@ require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver/v3 v3.2.1 // indirect
 	github.com/Microsoft/go-winio v0.6.2 // indirect
-	github.com/Microsoft/hcsshim v0.11.5 // indirect
+	github.com/Microsoft/hcsshim v0.11.7 // indirect
 	github.com/OpenDNS/vegadns2client v0.0.0-20180418235048-a3fa4a771d87 // indirect
 	github.com/VividCortex/gohistogram v1.0.0 // indirect
 	github.com/akamai/AkamaiOPEN-edgegrid-golang v1.2.2 // indirect
@@ -157,9 +157,9 @@ require (
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/civo/civogo v0.3.11 // indirect
 	github.com/cloudflare/cloudflare-go v0.97.0 // indirect
-	github.com/containerd/containerd v1.7.18 // indirect
-	github.com/containerd/errdefs v0.1.0 // indirect
+	github.com/containerd/containerd v1.7.35 // indirect
 	github.com/containerd/log v0.1.0 // indirect
+	github.com/containerd/platforms v0.2.1 // indirect
 	github.com/coreos/go-semver v0.3.1 // indirect
 	github.com/cpu/goacmedns v0.1.1 // indirect
 	github.com/cpuguy83/dockercfg v0.3.1 // indirect
@@ -253,9 +253,10 @@ require (
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/moby/docker-image-spec v1.3.1 // indirect
 	github.com/moby/patternmatcher v0.6.0 // indirect
-	github.com/moby/spdystream v0.2.0 // indirect
+	github.com/moby/spdystream v0.5.1 // indirect
 	github.com/moby/sys/sequential v0.5.0 // indirect
-	github.com/moby/sys/user v0.1.0 // indirect
+	github.com/moby/sys/user v0.3.0 // indirect
+	github.com/moby/sys/userns v0.1.0 // indirect
 	github.com/moby/term v0.5.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
@@ -338,15 +339,15 @@ require (
 	go.uber.org/ratelimit v0.3.0 // indirect
 	go.uber.org/zap v1.26.0 // indirect
 	golang.org/x/arch v0.4.0 // indirect
-	golang.org/x/crypto v0.24.0 // indirect
-	golang.org/x/oauth2 v0.21.0 // indirect
-	golang.org/x/sync v0.7.0 // indirect
-	golang.org/x/term v0.21.0 // indirect
+	golang.org/x/crypto v0.52.0 // indirect
+	golang.org/x/oauth2 v0.30.0 // indirect
+	golang.org/x/sync v0.20.0 // indirect
+	golang.org/x/term v0.43.0 // indirect
 	google.golang.org/api v0.172.0 // indirect
 	google.golang.org/genproto v0.0.0-20240227224415-6ceb2ff114de // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240701130421-f6361c86f094 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240701130421-f6361c86f094 // indirect
-	google.golang.org/protobuf v1.34.2 // indirect
+	google.golang.org/protobuf v1.35.2 // indirect
 	gopkg.in/h2non/gock.v1 v1.0.16 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
