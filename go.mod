@@ -1,6 +1,6 @@
 module github.com/traefik/traefik/v3
 
-go 1.22.4
+go 1.24
 
 require (
 	github.com/BurntSushi/toml v1.4.0
@@ -34,7 +34,7 @@ require (
 	github.com/influxdata/influxdb-client-go/v2 v2.7.0
 	github.com/influxdata/influxdb1-client v0.0.0-20200827194710-b269163b24ab // No tag on the repo.
 	github.com/juliens/wasm-goexport v0.0.6
-	github.com/klauspost/compress v1.17.4
+	github.com/klauspost/compress v1.18.7
 	github.com/kvtools/consul v1.0.2
 	github.com/kvtools/etcdv3 v1.0.2
 	github.com/kvtools/redis v1.1.0
